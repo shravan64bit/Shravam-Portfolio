@@ -1,0 +1,489 @@
+*{
+margin: 0;
+border: 0;
+}
+.container{
+    display: flex;
+    background: #161A30;
+    height: 600px;
+    justify-content:space-around;
+}
+.details{
+    width: 600px;
+    font-family: "Sora", sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: -85px
+
+    
+}
+.greeting   {
+    font-size: 35px;
+    height: 88px;
+    width: 600px;
+}
+
+.name{
+    font-size: 35px;
+    height: 88px;
+    width: 600px;
+}
+.subline{
+    font-size: 25px;
+    height: 58px;
+    width: 600px;
+}
+.connect{
+    margin-left: -395px
+}
+.button{
+    font-size: 18px;
+    height: 48px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+}
+.button:hover{
+    color: #FE7A36 ;
+    border: 2px solid #ec5b12;
+}
+
+.dp{
+    width: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.outline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background: #FFC436; 
+    border-radius: 50%; 
+    height: 400px; 
+    width: 400px;
+}
+
+.yellow{
+    color:#FFC436;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    background: #161A30;
+    position: relative;
+}
+.nav{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding:15px 15px 0px 15px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #ffffff;
+}
+.nav p:hover{
+    color:#FFC436;
+}
+.name-nav{
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 15px 660px 0px 35px;
+    color: #FFC436  ;
+    border-radius: 10px;
+}
+.name-nav p:hover{
+    color:#FE7A36;
+}
+.about{
+    background: #161A30;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:400px
+}
+.about-inside{
+    background:#FFC436;
+    width: 1100px;
+    height: 350px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-head{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Sora", sans-serif;
+    color:#161A30;
+}
+.about-para{
+    font-family: "Sora", sans-serif;
+    width: 800px;
+    height: 200px;
+    color: #161A30;
+    font-size: 20px;
+    text-align: justify
+
+}
+.skills{
+    background: #161A30;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills12-inside{
+   
+    height: 215px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+.skills-inside{
+    width: 1100px;
+    height: 450px;
+    display: flex;
+    background:#161A30;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFC436;
+}
+.skills>.skills-inside>.skills12-inside>img{
+    height: 100px;
+
+}
+.grid{
+    background:#FFC436;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    border: 7px solid #161A30;
+
+}
+.skill-def{
+    width: 300px;
+    background:#161A30;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius: 25px;
+    color:#FFC436;
+    font-size: 45px;
+    font-family: "Sora", sans-serif;
+}
+.mern{
+    width:300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.stack{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Sora", sans-serif;
+    background: #161A30;
+    color: #FFC436;
+    width: 50px;
+    text-align: center;
+    border: 3px solid #FFC436;
+    border-radius: 10px;
+    
+}
+.education{
+    height: 400px;
+    font-family: "Praise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: #161A30;
+    color: #FFC436;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.bca{
+    height: 100px;
+}
+footer{
+    height: 150px;
+    background: #292e4d;
+    color: #ac6847;
+    font-family: "Sora", sans-serif;
+
+}
+.contact{
+    height: 10px;
+    color: #FFC436;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #161A30;
+    font-size: 40px;
+}
+.icons{
+    height: 50px;
+    width: 80px;
+    font-size: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: -17px
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:500px){
+    .container{
+        height: 300px;
+    }
+    .details{
+        width: 250px;
+        font-family: "Sora", sans-serif;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        margin-top: -30px    
+    }
+    .dp{
+        height: 50vh;
+    }
+    .greeting   {
+        font-size: 10px;
+        height: 20px;
+        width: 150px;
+    }
+    
+    .name{
+        font-size: 8px;
+        height: 20px;
+        width: 150px;
+    }
+    .subline{
+        font-size: 8px;
+        height: 15px;
+        width: 150px;
+    }
+    .button{
+    font-size: 3px;
+    height: 18px;
+    width: 50px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid;
+    }
+    .connect{
+        margin-left: -100px;
+    }
+    .outline{
+        height: 130px;
+        width: 130px;
+    }
+    .dp>.outline>img{
+        height: 110px;
+        width: 110px;
+    }
+    .nav{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding:5px 5px 0px 5px;
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-size: 7px;
+        color: #ffffff;
+    }
+    .name-nav{
+        font-family: "Sora", sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        padding: 15px 60px 0px 10px;
+        color: #FFC436;
+        border-radius: 10px;
+        height: 26px;
+        width: 93px
+    }
+    .navbar{
+        display: flex;
+        height: 50px;
+        background: #161A30;
+        position: relative;
+    }
+    .about{
+        height:200px
+    }
+    .about-inside{
+        background:#FFC436;
+        width: 290px;
+        height: 150px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-head{
+        height: 75px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-family: "Sora", sans-serif;
+        color:#161A30;
+    }
+    .about-para{
+    font-family: "Sora", sans-serif;
+    width: 250px;
+    height: 200px;
+    color: #161A30;
+    font-size: 0.48rem;
+    text-align: justify;
+    }
+    .skills{
+        background: #161A30;
+        height:200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skills12-inside{
+       
+        height: 105px;
+        width: 202px;
+        display: grid;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        gap: 0px;
+    
+    }
+    
+    .skills-inside{
+        width: 280px;
+        height: 180px;
+        display: flex;
+        background:#161A30;
+        border-radius: 25px;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #FFC436;
+    }
+    .grid{
+        background:#FFC436;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:50%;
+        border: 7px solid #161A30;
+    
+    }
+    .skill-def{
+        width: 300px;
+        background:#161A30;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        border-radius: 25px;
+        color:#FFC436;
+        font-size: 40px;
+        font-family: "Sora", sans-serif;
+    }
+    .mern{
+        width:50px;
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .stack{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        height: 15px;
+        font-size: 10px;
+        font-family: "Sora", sans-serif;
+        background: #161A30;
+        color: #FFC436;
+        width: 15px;
+        text-align: center;
+        border: 2px solid #FFC436;
+        border-radius: 5px;
+        
+    }
+    .skills>.skills-inside>.skills12-inside>.grid>img{
+        height: 20px;
+        width: 20px;
+    }
+    .bca{
+        height: 36px;
+    }
+    .education{
+        font-size: 30px;
+        height: 150px;
+    }
+    .footer{
+        height: 70px;
+    }
+    footer{
+        height: 110px;
+    }
+    .icons{
+    height: 33px;
+    width: 44px;
+    font-size: 20px
+    }
+
+}
